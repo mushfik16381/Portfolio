@@ -340,8 +340,8 @@
         font-size: 15px;
     }
     #form-part .form form button {
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
         right: 19px;
         bottom: 21px;
     }
@@ -355,7 +355,7 @@
         padding: 14px 0;
     }
     footer p {
-        font-size: 14px;
+        font-size: 13px;
     }
     /* ========== footer end ========== */
 }
