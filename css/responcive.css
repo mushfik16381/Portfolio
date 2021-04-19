@@ -588,7 +588,7 @@
 
     /* ========== testimonial start ========== */
     #testimonial-part{
-        padding-bottom: 750px;
+        padding-bottom: 736px;
     }
     #testimonial-part .item{
         display: inline-block;
@@ -603,8 +603,8 @@
         text-align: left;
         margin-right: 60px;
     }
-    #testimonial-part .item .text .star{
-        width: 50% !important;
+    #testimonial-part .item .text .star {
+        width: 40% !important;
     }
     #testimonial-part .item .img img {
         width: auto;
@@ -1013,7 +1013,7 @@
         margin-right: 60px;
     }
     #testimonial-part .item .text .star{
-        width: 50% !important;
+        width: 40% !important;
     }
     #testimonial-part .item .img img {
         width: auto;
