@@ -1111,6 +1111,9 @@ box-shadow: 0px 0px 10px 0px rgba(214, 198, 178.75);
     outline: none;
     cursor: pointer;
 }
+#form-part .form form button p{
+    display: none;
+}
 #form-part .form form button i{
     color: #222222;
     position: absolute;

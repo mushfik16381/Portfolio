@@ -119,25 +119,28 @@
     /* ========== about end ========== */
 
     /* ============service start========= */
+    #service-part .item p{
+        padding-bottom: 90px;
+    }
     #service-part .prev{
         width: 24px;
         height: 24px;
         left: 40%;
-        bottom: 11%;
+        bottom: 8%;
     }
     #service-part .left::before{
         right: 48%;
-        bottom: 10%;
+        bottom: 8%;
     }
     #service-part .next{
         width: 24px;
         height: 24px;
         right: 34%;
-        bottom: 11%;
+        bottom: 8%;
     }
     #service-part .right::before{
         right: 36%;
-        bottom: 10%;
+        bottom: 8%;
     }
     /* ============service end========= */
 
@@ -175,8 +178,11 @@
     /* ========== portfolio end ========== */
 
     /* ========== testimonial start ========== */
+    #testimonial-part .test{
+        padding: 28px 0;
+    }
     #testimonial-part{
-        padding-bottom: 750px;
+        padding-bottom: 650px;
     }
     #testimonial-part .item{
         display: inline-block;
@@ -196,25 +202,28 @@
         width: 24px;
         height: 24px;
         left: 36%;
-        bottom: -13%;
+        bottom: -8%;
     }
     #testimonial-part .left::before{
         right: 48%;
-        bottom: -16%;
+        bottom: -11%;
     }
     #testimonial-part .next{
         width: 24px;
         height: 24px;
         right: 36%;
-        bottom: -13%;
+        bottom: -8%;
     }
     #testimonial-part .right::before{
         right: 36%;
-        bottom: -16%;
+        bottom: -11%;
     }
     /* ========== testimonial end ========== */
 
     /* ========== pricing start ========== */
+    #pricing-part .pric{
+        padding: 40px 0 !important;
+    }
     #pricing-part .item{
         margin: 20px 0;
     }
@@ -306,6 +315,9 @@
     #form-part{
         padding-top: 60px;
     }
+    #form-part .form .main{
+        display: inline-block;
+    }
     #form-part .text .add i {
         padding-right: 10px;
     }
@@ -328,25 +340,40 @@
         padding: 18px;
     }
     #form-part .form .main input {
+        width: 100%;
         padding: 10px 0 10px 6px;
+        margin-bottom: 10px ;
     }
     #form-part .form .main input::placeholder{
         font-size: 15px;
     }
     #form-part .form .message textarea {
         height: 125px;
+        margin-top: 0;
     }
     #form-part .form .message textarea::placeholder{
         font-size: 15px;
     }
-    #form-part .form form button {
-        width: 50px;
-        height: 50px;
-        right: 19px;
-        bottom: 21px;
+    #form-part .form form button{
+        clip-path: none;
+    }
+    #form-part .form form .send {
+        width: 80px;
+        height: 35px;
+        position: initial;
+        margin: 16px auto;
+        display: block;
+        text-transform: uppercase;
+    }
+    #form-part .form form button p{
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
     }
     #form-part .form form button i {
         font-size: 24px;
+        display: none;
     }
     /* ========== form end ========== */
 
@@ -1362,4 +1389,15 @@
         font-size: 18px;
     }
     /* ========= from end=========== */
+}
+@media(min-width:1400px) {
+    #service-part .prev {
+        left: 47%;
+    }
+    #testimonial-part{
+        padding-bottom: 600px;
+    }
+    #testimonial-part .left::before {
+        right: 51%;
+    }
 }
