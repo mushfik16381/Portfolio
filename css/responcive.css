@@ -15,7 +15,7 @@
     .navbar-toggler i{
         color: #fff;
     }
-    nav .navbar ul{
+    .navbar ul{
         padding: 0;
         margin-right: 0 !important;
         background: #d6c6b2;
@@ -23,27 +23,27 @@
         margin-top: 15px;
         border-radius: 5px;
     }
-    nav .navbar ul li{
+    .navbar ul li{
         display: inline-block;
         padding: 8px 0;
     }
-    nav .navbar .nav-item{
+    .navbar .nav-item{
         margin: 0 auto;
     }
-    nav .navbar .nav-item a:hover{
+    .navbar .nav-item a:hover{
         color: #000 !important;
     }
-    nav .navbar .nav-item .home{
+    .navbar .nav-item .home{
         height: 0;
     }
-    nav .navbar .nav-item a{
+    .navbar .nav-item a{
         color: #fff !important;
         background: none !important;
         padding-top: 0;
         padding-bottom: 0;
         transition: .4s;
     }
-    nav .navbar .nav-item .overlay{
+    .navbar .nav-item .overlay{
         background: none !important;
     }
     /* ========= nav end=========== */
@@ -433,7 +433,7 @@
     .navbar-toggler i{
         color: #fff;
     }
-    nav .navbar ul{
+    .navbar ul{
         padding: 0;
         margin-right: 0 !important;
         background: #d6c6b2;
@@ -441,27 +441,27 @@
         margin-top: 15px;
         border-radius: 5px;
     }
-    nav .navbar ul li{
+    .navbar ul li{
         display: inline-block;
         padding: 8px 0;
     }
-    nav .navbar .nav-item{
+    .navbar .nav-item{
         margin: 0 auto;
     }
-    nav .navbar .nav-item a:hover{
+    .navbar .nav-item a:hover{
         color: #000 !important;
     }
-    nav .navbar .nav-item .home{
+    .navbar .nav-item .home{
         height: 0;
     }
-    nav .navbar .nav-item a{
+    .navbar .nav-item a{
         color: #fff !important;
         background: none !important;
         padding-top: 0;
         padding-bottom: 0;
         transition: .4s;
     }
-    nav .navbar .nav-item .overlay{
+    .navbar .nav-item .overlay{
         background: none !important;
     }
     /* ========= nav end=========== */
@@ -837,7 +837,7 @@
     .navbar-toggler i{
         color: #fff;
     }
-    nav .navbar ul{
+    .navbar ul{
         padding: 0;
         margin-right: 0 !important;
         background: #d6c6b2;
@@ -845,27 +845,27 @@
         margin-top: 15px;
         border-radius: 5px;
     }
-    nav .navbar ul li{
+    .navbar ul li{
         display: inline-block;
         padding: 8px 0;
     }
-    nav .navbar .nav-item{
+    .navbar .nav-item{
         margin: 0 auto;
     }
-    nav .navbar .nav-item a:hover{
+    .navbar .nav-item a:hover{
         color: #000 !important;
     }
-    nav .navbar .nav-item .home{
+    .navbar .nav-item .home{
         height: 0;
     }
-    nav .navbar .nav-item a{
+    .navbar .nav-item a{
         color: #fff !important;
         background: none !important;
         padding-top: 0;
         padding-bottom: 0;
         transition: .4s;
     }
-    nav .navbar .nav-item .overlay{
+    .navbar .nav-item .overlay{
         background: none !important;
     }
     /* ========= nav end=========== */
